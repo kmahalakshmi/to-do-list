@@ -1,0 +1,113 @@
+.maincontainer
+{
+	background-color: #eee;
+	padding-bottom: 20px;
+}
+.todo
+{
+	font-size: 80px;
+    text-align: center;
+    color: rgba(217, 83, 80, 0.15);
+}
+.todolist
+{
+	width: 50%;
+    margin: 0 auto;
+    
+}
+.listclass
+{	
+	font-size: 25px;
+	border: none;
+	padding: 35px;
+	font-style: italic;
+}
+#firstlist{
+	display: block;
+	text-align: center;
+
+    background: white;
+    width: 50%;
+    margin: 0 auto;
+}
+.grouplist
+{
+	background: white;
+    border: none;
+    color: #ccc;
+} 
+#firstlist ul li
+{
+	border-left: none;
+	border-right: none;
+	text-align: left;
+	padding: 20px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ color: #ccc !important;
+}
+:-moz-placeholder { /* Firefox 18- */   
+ color: #ccc !important;
+}
+.crossclass
+{
+	float: right;
+	color: rgba(169, 68, 66, 0.54);
+}
+#firstlist span
+{
+	display: none;
+}
+#firstlist ul li:hover span
+{
+	display: inline-block;
+}
+#firstlist ul{
+	margin: 0;
+}
+.footer{
+	color: #777;
+    /* padding: 10px 15px; */
+    height: 60px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+.filters{
+	margin: 0;
+    padding: 10;
+    list-style: none;
+}
+.filters li{
+	display: inline-block;
+}
+.filters li a{
+	text-decoration: none;
+}
+.filters li a:hover{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+#firstlist ul .toggle{
+	margin-right: 10px;
+
+}
+.filters li a:first-child
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
